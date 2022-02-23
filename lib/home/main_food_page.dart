@@ -27,7 +27,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
                     children: [
                       BigText(
                         text: "Morocco",
-                        color: Color(0xFF89dad0),
+                        color: Colors.black, //Color(0xFF89dad0)
                       ),
                       Row(
                         children: [
@@ -50,7 +50,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
                       ),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
-                        color: Color(0xFF89dad0),
+                        color: Colors.black, //Color(0xFF89dad0)
                       ),
                     ),
                   )
