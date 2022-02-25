@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:restaurant/utils/dimensions.dart';
 
 class IconAndText extends StatelessWidget {
   final IconData icon;
@@ -17,9 +18,13 @@ class IconAndText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Icon(icon, color: iconColor),
+        Icon(
+          icon,
+          color: iconColor,
+          size: Dimensions.iconSize24,
+        ),
         SizedBox(
-          width: 5,
+          width: Dimensions.width5,
         ),
         Text(
           text,
